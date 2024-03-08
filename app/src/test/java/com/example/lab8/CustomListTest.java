@@ -67,5 +67,5 @@ public class CustomListTest {
         Assert.assertEquals(1, list.countCities());
     }
 
-    
+
 }
