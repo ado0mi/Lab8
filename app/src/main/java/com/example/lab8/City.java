@@ -17,4 +17,9 @@ public class City {
     String getProvinceName(){
         return this.province;
     }
+
+    public int compareTo(Object o) {
+        City city = (City) o;
+        return this.city.compareTo(city.getCityName());
+    }
 }
